@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" width="1280" height="960" role="img" aria-label="Project image placeholder">
+  <defs>
+    <linearGradient id="wash" x1="6%" y1="0%" x2="94%" y2="100%">
+      <stop offset="0" stop-color="#0B1430"/><stop offset=".55" stop-color="#101D45"/><stop offset="1" stop-color="#16254F"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1280" height="960" fill="url(#wash)"/>
+  <rect width="1280" height="960" filter="url(#grain)" opacity=".05"/>
+  <rect x="18" y="18" width="1244" height="924" rx="33.6" fill="none" stroke="#5FD0FF" stroke-opacity=".42" stroke-width="2" stroke-dasharray="10 9"/>
+  <g transform="translate(558.4,276.0) scale(1.6320)">
+  <defs>
+    <linearGradient id="bplaceholderproject04" x1="18%" y1="4%" x2="78%" y2="100%">
+      <stop offset="0" stop-color="#F2EDFF"/><stop offset=".42" stop-color="#BFA8FF"/><stop offset="1" stop-color="#7E5BF0"/>
+    </linearGradient>
+    <radialGradient id="bounceplaceholderproject04" cx="52%" cy="112%" r="72%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".62"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="splaceholderproject04" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.1"/></filter>
+    <filter id="s2placeholderproject04" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3.4"/></filter>
+    <filter id="dpplaceholderproject04" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3.2" flood-color="#5B3CC4" flood-opacity=".34"/>
+    </filter>
+    <clipPath id="cplaceholderproject04"><path d="M 63 8 C 40 14 24 34 24 57 C 24 72 31 85 42 93 C 20 88 4 69 4 45 C 4 18 27 -1 54 3 C 57 4 60 6 63 8 Z" clip-rule="nonzero"/></clipPath>
+  </defs>
+  <g filter="url(#dpplaceholderproject04)">
+    <path d="M 63 8 C 40 14 24 34 24 57 C 24 72 31 85 42 93 C 20 88 4 69 4 45 C 4 18 27 -1 54 3 C 57 4 60 6 63 8 Z" fill="url(#bplaceholderproject04)" fill-rule="nonzero"/>
+    <g clip-path="url(#cplaceholderproject04)">
+      <path d="M 63 8 C 40 14 24 34 24 57 C 24 72 31 85 42 93 C 20 88 4 69 4 45 C 4 18 27 -1 54 3 C 57 4 60 6 63 8 Z" fill="url(#bounceplaceholderproject04)" fill-rule="nonzero"/>
+      <path d="M 63 8 C 40 14 24 34 24 57 C 24 72 31 85 42 93 C 20 88 4 69 4 45 C 4 18 27 -1 54 3 C 57 4 60 6 63 8 Z" fill="none" stroke="#7E5BF0" stroke-opacity=".36" stroke-width="3.6"/>
+      <ellipse cx="32" cy="30" rx="9" ry="6.5" transform="rotate(-40 32 30)" fill="#ffffff" opacity=".9" filter="url(#splaceholderproject04)"/>
+      <ellipse cx="60" cy="78" rx="18" ry="6" fill="#ffffff" opacity=".3" filter="url(#s2placeholderproject04)"/>
+    </g>
+    
+  </g>
+</g>
+  <text x="640.0" y="569.76" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40.32" letter-spacing="3.84" fill="#AFC6EE" fill-opacity=".72">Project image</text>
+  <text x="640.0" y="612.96" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28.799999999999997" fill="#AFC6EE" fill-opacity=".42">assets/images/project-04.jpg</text>
+</svg>

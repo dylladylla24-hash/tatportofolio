@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" class="is-loading_tatiana">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tatyana Faradilla R. - Portfolio</title>
+<meta name="description" content="Portfolio of Tatyana Faradilla R., a Computer Engineering student in Indonesia working across web development, software, UI/UX, video and interior design.">
+<meta name="author" content="Tatyana Faradilla R.">
+<meta name="theme-color" content="#E7EDF4">
+
+<meta property="og:title" content="Tatyana Faradilla R. - Portfolio">
+<meta property="og:description" content="Computer Engineering student working across code and design.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/octopus.png">
+
+<link rel="icon" href="assets/images/octopus-mark.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/Kindergarten.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/projects.css">
+<noscript><style>.reveal_tatiana{opacity:1;transform:none}.mask_tatiana>span{transform:none}.loader_tatiana{display:none}.hero__note_tatiana,.hero__role_tatiana,.hero__scroll_tatiana{opacity:1;transform:none}</style></noscript>
+</head>
+
+<body>
+<a class="skip-link_tatiana" href="#main">Skip to content</a>
+
+<canvas class="tank_tatiana" id="tank" aria-hidden="true"></canvas>
+<div class="tank__fallback_tatiana" aria-hidden="true"><img src="assets/images/octopus.webp" alt="" width="713" height="720"></div>
+<div class="glass_tatiana" aria-hidden="true"><i class="glass__seam_tatiana glass__seam--l_tatiana"></i><i class="glass__seam_tatiana glass__seam--r_tatiana"></i><i class="glass__sheen_tatiana"></i></div>
+<div class="loader_tatiana" id="loader" aria-hidden="true"><span class="loader__line_tatiana"></span></div>
+
+<header class="nav_tatiana" id="nav">
+  <div class="nav__inner_tatiana">
+    <a class="nav__brand_tatiana" href="#top">
+      <svg class="nav__brand-mark_tatiana" aria-hidden="true" viewBox="0 0 24 24">
+        <defs>
+          <linearGradient id="neonHeartGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F6CBD3"/>
+            <stop offset="100%" stop-color="#D3929F"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#neonHeartGrad)" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+      </svg>
+      <span class="nav__brand-name_tatiana">Tatyana&nbsp;F.</span>
+    </a>
+
+    <nav class="nav__menu_tatiana" id="nav-menu" aria-label="Main">
+      <ul class="nav__list_tatiana">
+        <li><a href="#services">What I do</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav__toggle_tatiana" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+      <span class="nav__toggle-bars_tatiana" aria-hidden="true"><i></i><i></i></span>
+      <span class="nav__toggle-text_tatiana">Menu</span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero_tatiana" id="top">
+  <div class="hero__stage_tatiana">
+    <p class="hero__note_tatiana hero__note--tl_tatiana">Based in Indonesia</p>
+    <p class="hero__note_tatiana hero__note--tr_tatiana">Open for projects</p>
+
+    <div class="hero__title_tatiana">
+      <h1>
+        <span class="hero__first_tatiana"><span class="mask_tatiana"><span>Tatyana</span></span></span>
+        <span class="hero__second_tatiana"><span class="mask_tatiana"><span>Faradilla R.</span></span></span>
+      </h1>
+      <p class="hero__role_tatiana">Computer Engineering student, web, software &amp; design</p>
+    </div>
+
+  </div>
+
+  <div class="wrap_tatiana hero__body_tatiana">
+    <div class="hero__text_tatiana reveal_tatiana">
+      <p class="hero__intro_tatiana">
+        I'm a fourth-year Computer Engineering student in Indonesia. I work across code and
+        design: building websites and small applications, planning interfaces, editing video,
+        and occasionally rearranging a room until it finally makes sense. I like understanding a
+        problem properly before I start building it, and I care about the details that decide
+        whether something feels finished.
+      </p>
+      <div class="hero__actions_tatiana">
+        <a class="btn_tatiana btn--solid_tatiana" href="#projects">View my work</a>
+        <a class="btn_tatiana btn--quiet_tatiana" href="#contact">Let's work together</a>
+      </div>
+    </div>
+
+    <figure class="hero__photo_tatiana reveal_tatiana" data-parallax="-0.04">
+      <img src="assets/images/profilepicture.jpg" alt="Tatyana Faradilla R. Portrait" width="900" height="1150">
+    </figure>
+  </div>
+
+  <p class="hero__scroll_tatiana" aria-hidden="true"><span></span>Scroll</p>
+</section>
+
+<section class="section_tatiana services_tatiana" id="services">
+  <div class="wrap_tatiana">
+    <header class="section__head_tatiana reveal_tatiana">
+      <h2 class="section__title_tatiana" data-split>What I do</h2>
+      <p class="section__note_tatiana">Five things I keep coming back to, three technical, two visual, all of them about making something usable.</p>
+    </header>
+
+    <ul class="crafts_tatiana">
+      <li class="craft_tatiana reveal_tatiana tilt_tatiana">
+        <h3 class="craft__name_tatiana">Interior design</h3>
+        <p class="craft__desc_tatiana">Space planning, visual composition, and atmosphere that still works day to day.</p>
+      </li>
+      <li class="craft_tatiana reveal_tatiana tilt_tatiana">
+        <h3 class="craft__name_tatiana">Video editing</h3>
+        <p class="craft__desc_tatiana">Cutting, pacing, and transitions that keep a story moving and easy to follow.</p>
+      </li>
+      <li class="craft_tatiana reveal_tatiana tilt_tatiana">
+        <h3 class="craft__name_tatiana">Website development</h3>
+        <p class="craft__desc_tatiana">Responsive, functional sites with careful attention to layout and detail.</p>
+      </li>
+      <li class="craft_tatiana reveal_tatiana tilt_tatiana">
+        <h3 class="craft__name_tatiana">Software &amp; app development</h3>
+        <p class="craft__desc_tatiana">Practical applications built around how people actually use them.</p>
+      </li>
+      <li class="craft_tatiana reveal_tatiana tilt_tatiana">
+        <h3 class="craft__name_tatiana">UI/UX design</h3>
+        <p class="craft__desc_tatiana">Clean interfaces and flows that make sense without explanation.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section_tatiana skills_tatiana" id="skills">
+  <div class="wrap_tatiana">
+    <header class="section__head_tatiana reveal_tatiana">
+      <h2 class="section__title_tatiana" data-split>Skills &amp; tools</h2>
+      <p class="section__note_tatiana">What I work with regularly, grouped by the kind of work rather than by level.</p>
+    </header>
+
+    <div class="skills__grid_tatiana">
+      <div class="skills__group_tatiana reveal_tatiana" data-depth="0.06">
+        <h3 class="skills__label_tatiana">Code</h3>
+        <ul class="chips_tatiana">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>Python</li><li>C</li><li>SQL</li>
+        </ul>
+      </div>
+      <div class="skills__group_tatiana reveal_tatiana" data-depth="-0.04">
+        <h3 class="skills__label_tatiana">Building</h3>
+        <ul class="chips_tatiana">
+          <li>Web development</li><li>Software &amp; app development</li><li>Responsive web design</li>
+          <li>Database development</li><li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+      <div class="skills__group_tatiana reveal_tatiana" data-depth="0.03">
+        <h3 class="skills__label_tatiana">Design</h3>
+        <ul class="chips_tatiana">
+          <li>UI/UX design</li><li>Figma</li><li>Wireframing &amp; prototyping</li>
+          <li>Adobe software</li><li>3D &amp; design software</li>
+        </ul>
+      </div>
+      <div class="skills__group_tatiana reveal_tatiana" data-depth="-0.07">
+        <h3 class="skills__label_tatiana">Media</h3>
+        <ul class="chips_tatiana">
+          <li>Video editing</li><li>Pacing &amp; storytelling</li><li>Colour &amp; grading</li><li>Motion basics</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_tatiana projects_tatiana" id="projects">
+  <div class="wrap_tatiana">
+    <header class="section__head_tatiana reveal_tatiana">
+      <h2 class="section__title_tatiana" data-split>Selected projects</h2>
+      <p class="section__note_tatiana">Every project here is the real thing. Open one to use it, then come back when you're done.</p>
+    </header>
+
+    <div class="filters_tatiana reveal_tatiana" role="group" aria-label="Filter projects by type">
+      <button class="filter_tatiana is-active_tatiana" data-filter="all" aria-pressed="true">Everything</button>
+      <button class="filter_tatiana" data-filter="web" aria-pressed="false">Websites</button>
+      <button class="filter_tatiana" data-filter="app" aria-pressed="false">Applications</button>
+      <button class="filter_tatiana" data-filter="uiux" aria-pressed="false">UI/UX</button>
+      <button class="filter_tatiana" data-filter="interior" aria-pressed="false">Interior</button>
+      <button class="filter_tatiana" data-filter="video" aria-pressed="false">Video</button>
+    </div>
+
+    <div class="works_tatiana" id="gallery">
+
+      <article class="work_tatiana reveal_tatiana" data-category="web" data-project="hotel-sriwidjaja" data-title="Hotel Sriwidjaja">
+        <a class="work__stage_tatiana work__stage--browser_tatiana tilt_tatiana" href="projects/hotel-sriwidjaja/index.html" data-open="hotel-sriwidjaja" aria-label="Open Hotel Sriwidjaja, the live website">
+          <span class="work__depth_tatiana">
+            <span class="device_tatiana device--browser_tatiana device--back_tatiana" aria-hidden="true">
+              <span class="device__chrome_tatiana"><i></i><i></i><i></i><span class="device__url_tatiana">Admin panel</span></span>
+              <span class="device__screen_tatiana"><img src="assets/images/shot-hotel-admin.jpg" alt="" loading="lazy" width="1280" height="800"></span>
+            </span>
+            <span class="device_tatiana device--browser_tatiana">
+              <span class="device__chrome_tatiana"><i></i><i></i><i></i><span class="device__url_tatiana">Guest site</span></span>
+              <span class="device__screen_tatiana" data-origin><img src="assets/images/shot-hotel-guest.jpg" alt="Hotel Sriwidjaja home page" loading="lazy" width="1280" height="800"></span>
+            </span>
+          </span>
+          <span class="work__cue_tatiana"><span class="work__cue-dot_tatiana" aria-hidden="true"></span>Open project</span>
+        </a>
+
+        <div class="work__info_tatiana">
+          <p class="work__kind_tatiana">Website</p>
+          <h3 class="work__title_tatiana"><a href="projects/hotel-sriwidjaja/index.html" data-open="hotel-sriwidjaja">Hotel Sriwidjaja</a></h3>
+          <p class="work__desc_tatiana">The website of Hotel Sriwidjaja, a traditional lodging on Jalan Letkol Iskandar in central Palembang, with a separate admin panel for the staff.</p>
+          <dl class="work__facts_tatiana">
+            <div class="work__fact_tatiana">
+              <dt>Purpose</dt>
+              <dd>Lets guests look through the rooms and book online, and gives staff one place to confirm payments and manage each stay.</dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>Key features</dt>
+              <dd>
+                <ul class="work__list_tatiana">
+                  <li>Three-step booking: dates and room, guest details, then payment</li>
+                  <li>Pay by QRIS (BCA or e-wallet) and upload the transfer receipt, or pay at the cashier</li>
+                  <li>Guest accounts with booking status and history</li>
+                  <li>Admin panel to confirm or reject payments and check guests in and out</li>
+                  <li>Indonesian and English</li>
+                </ul>
+              </dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>Built with</dt>
+              <dd>
+                <ul class="work__stack_tatiana"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>localStorage</li></ul>
+                <p class="work__note_tatiana">The version here is an offline build: bookings are kept in the browser instead of the original Express API, so a booking made on the guest site shows up in the admin panel.</p>
+              </dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>My contribution</dt>
+              <dd>Designed and developed the website from scratch while working at the hotel as IT &amp; Web Administrator.</dd>
+            </div>
+          </dl>
+          <p class="work__actions_tatiana">
+            <a class="btn_tatiana btn--solid_tatiana" href="projects/hotel-sriwidjaja/index.html" data-open="hotel-sriwidjaja" data-view="site" data-label="Guest site">Open project</a>
+            <a class="btn_tatiana btn--quiet_tatiana" href="projects/hotel-sriwidjaja/admin.html" data-open="hotel-sriwidjaja" data-view="admin" data-label="Admin panel">Open admin panel</a>
+          </p>
+        </div>
+        <template class="project__tips_tatiana">
+          <li>Sign in as the demo guest <b>dewi.lestari@gmail.com</b> with password <b>dewi123</b>, or register your own account (it asks for a Gmail address).</li>
+          <li>Make a booking, then switch to the Admin panel tab to accept it. Both sides share the same bookings.</li>
+        </template>
+      </article>
+
+      <article class="work_tatiana work--flip_tatiana reveal_tatiana" data-category="app" data-project="egg-timer" data-title="Egg Timer">
+        <a class="work__stage_tatiana work__stage--phone_tatiana tilt_tatiana" href="projects/egg-timer/index.html" data-open="egg-timer" aria-label="Open Egg Timer, the live app">
+          <span class="work__depth_tatiana">
+            <span class="device_tatiana device--phone_tatiana">
+              <span class="device__screen_tatiana" data-origin><img src="assets/images/shot-egg-timer.jpg" alt="Egg Timer counting down a runny-yolk egg" loading="lazy" width="560" height="1212"></span>
+            </span>
+          </span>
+          <span class="work__cue_tatiana"><span class="work__cue-dot_tatiana" aria-hidden="true"></span>Open project</span>
+        </a>
+
+        <div class="work__info_tatiana">
+          <p class="work__kind_tatiana">Application</p>
+          <h3 class="work__title_tatiana"><a href="projects/egg-timer/index.html" data-open="egg-timer">Egg Timer</a></h3>
+          <p class="work__desc_tatiana">A pixel-art egg timer set in a little kitchen.</p>
+          <dl class="work__facts_tatiana">
+            <div class="work__fact_tatiana">
+              <dt>Purpose</dt>
+              <dd>Times a boiled egg to the doneness you pick and rings when it's ready.</dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>Key features</dt>
+              <dd>
+                <ul class="work__list_tatiana">
+                  <li>Four presets: runny 6 min, soft-boiled 8, hard-boiled 10, overcooked 15</li>
+                  <li>Start, pause and reset, with a progress bar</li>
+                  <li>Bubbles and steam that speed up as the egg cooks</li>
+                  <li>An alarm with sound, and vibration on phones, until you tap to stop it</li>
+                </ul>
+              </dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>Built with</dt>
+              <dd><ul class="work__stack_tatiana"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Web Audio API</li><li>Vibration API</li></ul></dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>My contribution</dt>
+              <dd>Designed and built the app: layout, timer logic, sound and animation.</dd>
+            </div>
+          </dl>
+          <p class="work__actions_tatiana">
+            <a class="btn_tatiana btn--solid_tatiana" href="projects/egg-timer/index.html" data-open="egg-timer" data-view="app" data-label="Egg Timer">Open project</a>
+          </p>
+        </div>
+        <template class="project__tips_tatiana">
+          <li>Sound starts after your first tap, so turn your volume up.</li>
+          <li>Pick an egg along the bottom, then press Start.</li>
+        </template>
+      </article>
+
+      <article class="work_tatiana reveal_tatiana" data-category="uiux app" data-project="tourify" data-title="Tourify">
+        <a class="work__stage_tatiana work__stage--phones_tatiana tilt_tatiana" href="projects/tourify/index.html" data-open="tourify" aria-label="Open Tourify, the live prototype">
+          <span class="work__depth_tatiana">
+            <span class="device_tatiana device--phone_tatiana device--back_tatiana" aria-hidden="true">
+              <span class="device__screen_tatiana"><img src="assets/images/shot-tourify-home.jpg" alt="" loading="lazy" width="560" height="1213"></span>
+            </span>
+            <span class="device_tatiana device--phone_tatiana">
+              <span class="device__screen_tatiana" data-origin><img src="assets/images/shot-tourify-splash.jpg" alt="Tourify splash screen" loading="lazy" width="560" height="1213"></span>
+            </span>
+          </span>
+          <span class="work__cue_tatiana"><span class="work__cue-dot_tatiana" aria-hidden="true"></span>Open project</span>
+        </a>
+
+        <div class="work__info_tatiana">
+          <p class="work__kind_tatiana">UI/UX design</p>
+          <h3 class="work__title_tatiana"><a href="projects/tourify/index.html" data-open="tourify">Tourify</a></h3>
+          <p class="work__desc_tatiana">A mobile travel app prototype for discovering Indonesia one city at a time.</p>
+          <dl class="work__facts_tatiana">
+            <div class="work__fact_tatiana">
+              <dt>Purpose</dt>
+              <dd>Turns the Figma design into a clickable prototype, so you can go through the app the way a traveller would instead of looking at static frames.</dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>Key features</dt>
+              <dd>
+                <ul class="work__list_tatiana">
+                  <li>Ten screens, from splash and sign-in to destination details, favorites and profile</li>
+                  <li>City search, plus Nature, Design and History filters</li>
+                  <li>Favorites and profile edits, including a new photo, saved on your device</li>
+                  <li>App-style transitions between screens</li>
+                </ul>
+              </dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>Built with</dt>
+              <dd><ul class="work__stack_tatiana"><li>Figma</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>localStorage</li></ul></dd>
+            </div>
+            <div class="work__fact_tatiana">
+              <dt>My contribution</dt>
+              <dd>Designed the screens in Figma and turned them into a working prototype.</dd>
+            </div>
+          </dl>
+          <p class="work__actions_tatiana">
+            <a class="btn_tatiana btn--solid_tatiana" href="projects/tourify/index.html" data-open="tourify" data-view="app" data-label="Tourify">Open project</a>
+          </p>
+        </div>
+        <template class="project__tips_tatiana">
+          <li>Tap Explore, then Sign In with any email. The account only lives in this browser.</li>
+          <li>Open Bali and try the Nature, Design and History chips.</li>
+          <li>Tap the heart on a destination, then find it under Favorites.</li>
+        </template>
+      </article>
+    </div>
+    <p class="gallery__empty_tatiana" id="gallery-empty" hidden>Nothing in this category yet.</p>
+  </div>
+</section>
+
+<section class="section_tatiana experience_tatiana" id="experience">
+  <div class="wrap_tatiana">
+    <header class="section__head_tatiana reveal_tatiana">
+      <h2 class="section__title_tatiana" data-split>Experience</h2>
+      <p class="section__note_tatiana">Where I've worked so far, most recent first.</p>
+    </header>
+
+    <ol class="timeline_tatiana" data-timeline>
+      <li class="tl_tatiana reveal_tatiana">
+        <p class="tl__date_tatiana"><time datetime="2023-09">September 2023</time> – <time datetime="2025-08">August 2025</time></p>
+        <span class="tl__dot_tatiana" aria-hidden="true"></span>
+        <div class="tl__body_tatiana">
+          <h3 class="tl__role_tatiana">IT &amp; Web Administrator</h3>
+          <p class="tl__org_tatiana">Hotel Sriwidjaja, Palembang, Indonesia</p>
+          <p class="tl__desc_tatiana">Designed and developed the hotel’s website from scratch while managing IT systems and MS Office applications. Maintained data integrity, ensured smooth digital operations, and provided technology support to staff to improve overall efficiency and guest experience.</p>
+          <a class="link-quiet_tatiana tl__link_tatiana" href="#project/hotel-sriwidjaja" data-open="hotel-sriwidjaja">Open the hotel website</a>
+        </div>
+      </li>
+
+      <li class="tl_tatiana reveal_tatiana">
+        <p class="tl__date_tatiana"><time datetime="2022-08">August 2022</time> – <time datetime="2023-07">July 2023</time></p>
+        <span class="tl__dot_tatiana" aria-hidden="true"></span>
+        <div class="tl__body_tatiana">
+          <h3 class="tl__role_tatiana">Online Job</h3>
+          <p class="tl__org_tatiana">Crowdspring, USA</p>
+          <p class="tl__desc_tatiana">Managed detailed visual editing and refinement for a variety of client projects, ensuring brand consistency and enhancing overall creative quality. Collaborated with clients and design teams to transform concepts into polished final assets that strengthened brand identity and audience engagement.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section_tatiana education_tatiana" id="education">
+  <div class="wrap_tatiana">
+    <header class="section__head_tatiana reveal_tatiana">
+      <h2 class="section__title_tatiana" data-split>Education</h2>
+      <p class="section__note_tatiana">Where I studied, and the languages I work in.</p>
+    </header>
+
+    <div class="edu_tatiana">
+      <article class="edu__card_tatiana reveal_tatiana">
+        <p class="edu__field_tatiana">Informatics Engineering</p>
+        <h3 class="edu__school_tatiana">Multi Data University Palembang</h3>
+        <p class="edu__desc_tatiana">Focused on software development, programming, database management, and information systems, preparing for careers in IT, web development, and data-driven solutions.</p>
+      </article>
+
+      <div class="edu__langs_tatiana reveal_tatiana">
+        <h3 class="edu__label_tatiana">Languages</h3>
+        <ul class="chips_tatiana">
+          <li lang="en">English</li>
+          <li lang="id">Indonesian (Bahasa Indonesia)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_tatiana about_tatiana" id="about">
+  <div class="wrap_tatiana">
+    <div class="about__panel_tatiana">
+      <div class="about__intro_tatiana reveal_tatiana">
+        <h2 class="section__title_tatiana" data-split>How I work</h2>
+        <p class="about__lead_tatiana">I'm still a student, so I won't pretend to know everything. What I can promise is
+          that I'll take your project seriously and tell you honestly what I can and can't do.</p>
+        <figure class="about__photo_tatiana" data-parallax="-0.03">
+          <img src="assets/images/student-portrait.jpg" alt="Portrait photo" loading="lazy">
+        </figure>
+      </div>
+
+      <ul class="ways_tatiana">
+        <li class="way_tatiana reveal_tatiana tilt_tatiana">
+          <h3>Understand first, build second</h3>
+          <p>I'd rather ask a few more questions at the start than rebuild something later. Most problems are easier once you know what's actually being asked for.</p>
+        </li>
+        <li class="way_tatiana reveal_tatiana tilt_tatiana">
+          <h3>Details decide the result</h3>
+          <p>Spacing, naming, alignment, loading time. Individually small, but together they're the difference between working and finished.</p>
+        </li>
+        <li class="way_tatiana reveal_tatiana tilt_tatiana">
+          <h3>Function and appearance together</h3>
+          <p>Something can look good and still be confusing to use. I try to keep both sides in mind instead of trading one for the other.</p>
+        </li>
+        <li class="way_tatiana reveal_tatiana tilt_tatiana">
+          <h3>Clear, plain communication</h3>
+          <p>I explain what I'm doing without hiding behind technical words, and I say early if something will take longer than expected.</p>
+        </li>
+        <li class="way_tatiana reveal_tatiana tilt_tatiana">
+          <h3>Revisions are part of it</h3>
+          <p>Feedback usually makes the result better. I'd rather change something in the second week than defend it in the last one.</p>
+        </li>
+        <li class="way_tatiana reveal_tatiana tilt_tatiana">
+          <h3>Practical and easy to maintain</h3>
+          <p>The final result should be something you can actually use and update after I hand it over, not only something that looks good once.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="interlude_tatiana" aria-hidden="true"></div>
+
+<section class="section_tatiana contact_tatiana" id="contact">
+  <div class="wrap_tatiana contact__inner_tatiana">
+
+    <h2 class="contact__title_tatiana reveal_tatiana">
+      <span class="contact__first_tatiana"><span class="mask_tatiana"><span>Let's work</span></span></span>
+      <span class="contact__second_tatiana"><span class="mask_tatiana"><span>together</span></span></span>
+    </h2>
+
+    <p class="contact__lead_tatiana reveal_tatiana">I'm open to freelance projects, collaborations, and internship opportunities.
+      Send me a note about what you're working on and I'll reply as soon as I can.</p>
+
+    <ul class="reach_tatiana reveal_tatiana">
+      <li class="reach__item_tatiana">
+        <a class="reach__link_tatiana" href="mailto:dylladylla24@gmail.com">
+          <span class="reach__icon_tatiana"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="reach__text_tatiana"><span class="reach__label_tatiana">Email</span><span class="reach__value_tatiana">dylladylla24@gmail.com</span></span>
+        </a>
+        <button class="copy_tatiana" type="button" data-copy="dylladylla24@gmail.com" data-copied="Email address copied">Copy</button>
+      </li>
+      <li class="reach__item_tatiana">
+        <a class="reach__link_tatiana" href="https://wa.me/85270444985" target="_blank" rel="noopener">
+          <span class="reach__icon_tatiana reach__icon--wa_tatiana"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35M12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88M20.46 3.49A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.16-3.48-8.41z"/></svg></span>
+          <span class="reach__text_tatiana"><span class="reach__label_tatiana">WhatsApp</span><span class="reach__value_tatiana">+852 7044 4985</span></span>
+        </a>
+        <button class="copy_tatiana" type="button" data-copy="+85270444985" data-copied="Phone number copied">Copy</button>
+      </li>
+      <li class="reach__item_tatiana">
+        <a class="reach__link_tatiana" href="sms:icedamerican0@icloud.com" data-imessage="icedamerican0@icloud.com">
+          <span class="reach__icon_tatiana reach__icon--im_tatiana"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4c-4.97 0-9 3.36-9 7.5 0 2.2 1.13 4.17 2.94 5.54L5 20.5l3.73-1.87c1.03.3 2.13.47 3.27.47 4.97 0 9-3.36 9-7.6S16.97 4 12 4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <span class="reach__text_tatiana"><span class="reach__label_tatiana">iMessage</span><span class="reach__value_tatiana">icedamerican0@icloud.com</span></span>
+        </a>
+        <button class="copy_tatiana" type="button" data-copy="icedamerican0@icloud.com" data-copied="iMessage address copied">Copy</button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<div class="finale_tatiana" aria-hidden="true"></div>
+
+<div class="viewer_tatiana" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-title" hidden>
+  <div class="viewer__scrim_tatiana" data-close></div>
+  <div class="viewer__frame_tatiana">
+    <div class="viewer__ghost_tatiana" aria-hidden="true"></div>
+    <header class="viewer__bar_tatiana">
+      <button class="viewer__back_tatiana" type="button" data-close>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Back to portfolio</span>
+      </button>
+      <p class="viewer__title_tatiana" id="viewer-title"></p>
+      <div class="viewer__tabs_tatiana" role="tablist" aria-label="Project views" hidden></div>
+      <div class="viewer__tools_tatiana">
+        <button class="viewer__tool_tatiana viewer__tool--text_tatiana" type="button" data-tips aria-expanded="false" aria-controls="viewer-tips"><span class="viewer__tool-long_tatiana">How to try it</span><span class="viewer__tool-short_tatiana">Tips</span></button>
+        <button class="viewer__tool_tatiana" type="button" data-reload aria-label="Restart project" title="Restart project">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.6M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <a class="viewer__tool_tatiana" href="#" target="_blank" rel="noopener" data-newtab aria-label="Open in a new tab" title="Open in a new tab">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </header>
+    <div class="viewer__tips_tatiana" id="viewer-tips" hidden>
+      <p class="viewer__tips-head_tatiana">How to try it</p>
+      <ul class="viewer__tips-list_tatiana"></ul>
+      <button class="viewer__tips-close_tatiana" type="button" aria-label="Hide tips">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="viewer__stage_tatiana">
+      <div class="viewer__loading_tatiana" aria-hidden="true">
+        <p class="viewer__loading-name_tatiana"></p>
+        <i class="viewer__loading-line_tatiana"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="toast_tatiana" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/vendor/three.min.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/projects.js" defer></script>
+<script src="js/motion.js" defer></script>
+<script src="js/aquarium.js" defer></script>
+</body>
+</html>

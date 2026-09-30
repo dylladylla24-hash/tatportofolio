@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Your photo here placeholder">
+  <defs>
+    <linearGradient id="wash" x1="6%" y1="0%" x2="94%" y2="100%">
+      <stop offset="0" stop-color="#0B1430"/><stop offset=".55" stop-color="#101D45"/><stop offset="1" stop-color="#16254F"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wash)"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".05"/>
+  <rect x="18" y="18" width="1564" height="964" rx="35.0" fill="none" stroke="#5FD0FF" stroke-opacity=".42" stroke-width="2" stroke-dasharray="10 9"/>
+  <g transform="translate(715.0,287.5) scale(1.7000)">
+  <defs>
+    <linearGradient id="bplaceholderworkspace" x1="18%" y1="4%" x2="78%" y2="100%">
+      <stop offset="0" stop-color="#F2EDFF"/><stop offset=".42" stop-color="#BFA8FF"/><stop offset="1" stop-color="#7E5BF0"/>
+    </linearGradient>
+    <radialGradient id="bounceplaceholderworkspace" cx="52%" cy="112%" r="72%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".62"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="splaceholderworkspace" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.1"/></filter>
+    <filter id="s2placeholderworkspace" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3.4"/></filter>
+    <filter id="dpplaceholderworkspace" x="-30%" y="-30%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3.2" flood-color="#5B3CC4" flood-opacity=".34"/>
+    </filter>
+    <clipPath id="cplaceholderworkspace"><path d="M 56.38 19.32 L 58.25 22.63 Q 63.65 32.21 74.43 34.39 L 78.15 35.14 Q 90.90 37.71 82.10 47.28 L 79.53 50.08 Q 72.08 58.18 73.35 69.10 L 73.78 72.87 Q 75.27 85.79 63.45 80.38 L 60.00 78.80 Q 50.00 74.22 40.00 78.80 L 36.55 80.38 Q 24.73 85.79 26.22 72.87 L 26.65 69.10 Q 27.92 58.18 20.47 50.08 L 17.90 47.28 Q 9.10 37.71 21.85 35.14 L 25.57 34.39 Q 36.35 32.21 41.75 22.63 L 43.62 19.32 Q 50.00 8.00 56.38 19.32 Z" clip-rule="nonzero"/></clipPath>
+  </defs>
+  <g filter="url(#dpplaceholderworkspace)">
+    <path d="M 56.38 19.32 L 58.25 22.63 Q 63.65 32.21 74.43 34.39 L 78.15 35.14 Q 90.90 37.71 82.10 47.28 L 79.53 50.08 Q 72.08 58.18 73.35 69.10 L 73.78 72.87 Q 75.27 85.79 63.45 80.38 L 60.00 78.80 Q 50.00 74.22 40.00 78.80 L 36.55 80.38 Q 24.73 85.79 26.22 72.87 L 26.65 69.10 Q 27.92 58.18 20.47 50.08 L 17.90 47.28 Q 9.10 37.71 21.85 35.14 L 25.57 34.39 Q 36.35 32.21 41.75 22.63 L 43.62 19.32 Q 50.00 8.00 56.38 19.32 Z" fill="url(#bplaceholderworkspace)" fill-rule="nonzero"/>
+    <g clip-path="url(#cplaceholderworkspace)">
+      <path d="M 56.38 19.32 L 58.25 22.63 Q 63.65 32.21 74.43 34.39 L 78.15 35.14 Q 90.90 37.71 82.10 47.28 L 79.53 50.08 Q 72.08 58.18 73.35 69.10 L 73.78 72.87 Q 75.27 85.79 63.45 80.38 L 60.00 78.80 Q 50.00 74.22 40.00 78.80 L 36.55 80.38 Q 24.73 85.79 26.22 72.87 L 26.65 69.10 Q 27.92 58.18 20.47 50.08 L 17.90 47.28 Q 9.10 37.71 21.85 35.14 L 25.57 34.39 Q 36.35 32.21 41.75 22.63 L 43.62 19.32 Q 50.00 8.00 56.38 19.32 Z" fill="url(#bounceplaceholderworkspace)" fill-rule="nonzero"/>
+      <path d="M 56.38 19.32 L 58.25 22.63 Q 63.65 32.21 74.43 34.39 L 78.15 35.14 Q 90.90 37.71 82.10 47.28 L 79.53 50.08 Q 72.08 58.18 73.35 69.10 L 73.78 72.87 Q 75.27 85.79 63.45 80.38 L 60.00 78.80 Q 50.00 74.22 40.00 78.80 L 36.55 80.38 Q 24.73 85.79 26.22 72.87 L 26.65 69.10 Q 27.92 58.18 20.47 50.08 L 17.90 47.28 Q 9.10 37.71 21.85 35.14 L 25.57 34.39 Q 36.35 32.21 41.75 22.63 L 43.62 19.32 Q 50.00 8.00 56.38 19.32 Z" fill="none" stroke="#7E5BF0" stroke-opacity=".36" stroke-width="3.6"/>
+      <ellipse cx="36" cy="27" rx="12" ry="7.5" transform="rotate(-28 36 27)" fill="#ffffff" opacity=".9" filter="url(#splaceholderworkspace)"/>
+      <ellipse cx="60" cy="78" rx="18" ry="6" fill="#ffffff" opacity=".3" filter="url(#s2placeholderworkspace)"/>
+    </g>
+    
+  </g>
+</g>
+  <text x="800.0" y="593.5" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="42.0" letter-spacing="4.0" fill="#AFC6EE" fill-opacity=".72">Your photo here</text>
+  <text x="800.0" y="638.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30.0" fill="#AFC6EE" fill-opacity=".42">assets/images/workspace.jpg</text>
+</svg>
